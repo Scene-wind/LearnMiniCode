@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">home页面</text>
+<button size="mini">按钮</button>
+
