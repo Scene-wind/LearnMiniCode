@@ -1,4 +1,27 @@
 <!--pages/home/home.wxml-->
-<text class="title">home页面</text>
-<button size="mini">按钮</button>
 
+<!-- tab-nav练习 -->
+<w-tab-nav titles="{{['流行','精选','爆款']}}"
+            bind:itemClick="handleTabClick"
+/>
+
+<!-- 选中组件修改数据/调用方法 -->
+<button size="mini" bind:tap="handleBtnClickSel">修改组件内的数据</button>
+<w-sel id="sel-id"/>
+
+<!-- 插槽 -->
+<my-slot>
+<button size="mini">中间按钮</button>
+</my-slot>
+
+<my-slot>
+<text>文本</text>
+</my-slot>
+<view>-------------------</view>
+<!-- 多个插槽 -->
+<!-- 1. 给每个插槽起名字，name属性 -->
+<!-- 2. 必须在component对象中添加options选项  => multipleSlots:true-->
+<my-mslot>
+<button size="mini" slot="slot2">插槽2按钮</button>
+<text slot="slot1">插槽1文本</text>
+</my-mslot>

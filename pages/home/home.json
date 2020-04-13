@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "w-tab-nav":"/components/w-tab-nav/w-tab-nav",
+    "w-sel":"/components/w-sel/w-sel",
+    "my-slot":"/components/my-slot/my-slot",
+    "my-mslot":"/components/my-mslot/my-mslot"
+  }
 }
