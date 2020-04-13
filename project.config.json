@@ -4,6 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
+		"checkSiteMap": false,
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
@@ -16,7 +17,7 @@
 		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.10.3",
 	"appid": "wx2bbe7f8cf5a1cf66",
 	"projectname": "MiniCode",
 	"debugOptions": {
@@ -34,13 +35,28 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "分类页面",
+					"pathName": "pages/category/category",
+					"scene": null
+				}
+			]
 		}
 	}
 }

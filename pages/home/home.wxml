@@ -1,4 +1,8 @@
 <!--pages/home/home.wxml-->
+<button bindtap="handleChooseAlbum">选择图片</button>
+<image src="{{imagePath}}"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ></image>
 <text class="title">home页面</text>
-<button size="mini">按钮</button>
-
+<button size="mini">按 钮</button>
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>

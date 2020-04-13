@@ -1,0 +1,3 @@
+<!--pages/category/category.wxml-->
+ <view>{{message}}</view>
+ <button size="mini">点击</button>
